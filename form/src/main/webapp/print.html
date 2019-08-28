@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQuery.print.js"></script>
+<title>打印、预览</title>
+</head>
+<body>
+<!-- 	有的浏览器不能预览 -->
+	<button onclick="$('.ddd').print();"  >打印</button>  
+
+	<div class="ddd">
+			<div>可以打印</div>
+			<div class="no-print">禁止打印的位置</div>
+			<tr>
+				<td>test</td> <br>
+				<td>test</td><br>
+				<td>test</td><br>
+				<td>test</td><br>
+				<td>test</td><br>
+			</tr>
+	</div>
+</body>
+</html>
